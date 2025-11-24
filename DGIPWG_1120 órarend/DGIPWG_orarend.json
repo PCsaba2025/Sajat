@@ -1,0 +1,138 @@
+{
+    "DGIPWG_orarend": {
+        "ora": [
+            {
+                "targy": "Programozás alapjai",
+                "idopont": {
+                    "nap": "Hétfő",
+                    "tol": "8:00",
+                    "ig": "11:15"
+                },
+                "helyszin": "Online",
+                "oktato": "Gégény Dávid",
+                "szak": "1NPTI"
+            },
+            {
+                "targy": "Bevezetés TEX-be",
+                "idopont": {
+                    "nap": "Hétfő",
+                    "tol": "14:00",
+                    "ig": "17:30"
+                },
+                "helyszin": "Online",
+                "oktato": "Dr. Veres Laura",
+                "szak": "1NPTI"
+            },
+            {
+                "targy": "Webprogramozás alapjai",
+                "idopont": {
+                    "nap": "Kedd",
+                    "tol": "8:00",
+                    "ig": "9:35"
+                },
+                "helyszin": "Inf. 124",
+                "oktato": "Dr. Bednarik László",
+                "szak": "1NPTI"
+            },
+            {
+                "targy": "Diszkrét matematika és lineáris algebra",
+                "idopont": {
+                    "nap": "Kedd",
+                    "tol": "10:00",
+                    "ig": "12:55"
+                },
+                "helyszin": "Tan. 117",
+                "oktato": "Dr. Földvári Attila József",
+                "szak": "1NPTI"
+            },
+            {
+                "targy": "Testnevelés I.",
+                "idopont": {
+                    "nap": "Kedd",
+                    "tol": "18:25",
+                    "ig": "19:10"
+                },
+                "helyszin": "Tan. 128",
+                "oktato": "Bodnár Fruzsina",
+                "szak": "1NPTI"
+            },
+            {
+                "targy": "Kutatás- és tanulásmódszertan",
+                "idopont": {
+                    "nap": "Szerda",
+                    "tol": "13:00",
+                    "ig": "14:35"
+                },
+                "helyszin": "Tan. 111",
+                "oktato": "Dr. Kökényesi Nikoletta Judit",
+                "szak": "1NPTI"
+            },
+            {
+                "targy": "Idegen nyelv I.",
+                "idopont": {
+                    "nap": "Szerda",
+                    "tol": "15:15",
+                    "ig": "18:20"
+                },
+                "helyszin": "Tan. 111",
+                "oktato": "Kováts Imre Győző",
+                "szak": "1NPTI"
+            },
+            {
+                "targy": "Webprogramozás alapjai",
+                "idopont": {
+                    "nap": "Csütörtök",
+                    "tol": "8:00",
+                    "ig": "9:35"
+                },
+                "helyszin": "Inf. 124",
+                "oktato": "Dr. Bednarik László",
+                "szak": "1NPTI"
+            },
+            {
+                "targy": "Számítógép architektúrák",
+                "idopont": {
+                    "nap": "Csütörtök",
+                    "tol": "10:00",
+                    "ig": "11:15"
+                },
+                "helyszin": "Inf. 124",
+                "oktato": "Dr. Bednarik László",
+                "szak": "1NPTI"
+            },
+            {
+                "targy": "Az informatika logikai alapjai",
+                "idopont": {
+                    "nap": "Csütörtök",
+                    "tol": "16:00",
+                    "ig": "19:10"
+                },
+                "helyszin": "Online",
+                "oktato": "Dr. Godó Zoltán Attila",
+                "szak": "1NPTI"
+            },
+            {
+                "targy": "Testnevelés I.",
+                "idopont": {
+                    "nap": "Csütörtök",
+                    "tol": "18:25",
+                    "ig": "19:10"
+                },
+                "helyszin": "Tan. 128",
+                "oktato": "Bodnár Fruzsina",
+                "szak": "1NPTI"
+            },
+            {
+                "targy": "Bevezetés az informatikába",
+                "idopont": {
+                    "nap": "Péntek",
+                    "tol": "13:30",
+                    "ig": "17:30"
+                },
+                "helyszin": "Online",
+                "oktato": "Janics Tamás",
+                "szak": "1NPTI"
+            }
+        ]
+    }
+}

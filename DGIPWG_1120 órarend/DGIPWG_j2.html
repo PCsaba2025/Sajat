@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery feladatok_2.</title>
+
+    <script src="jquery/jquery-3.7.1.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $("btn").click(function(){
+                $("ul li:first").hide();
+                $("ul li:first-child").hide();
+                $("[href]").hide();
+            });
+        });
+    </script>
+</head>
+
+<body>
+    
+    <h2 class="fejlec">jQuery feladatok</h2>
+
+    <p><strong>A jQuery egy JavaScript programozói könyvtár, amelyet John Resig kezdett fejleszteni.</strong></p>
+    <p>Elterjedtnek tekinthető, segítségével könnyen bejárható egy HTML oldal DOM-ja</p>
+
+    <ul>
+        <li>tíz</li>
+        <li>húsz</li>
+        <li>harminc</li>
+    </ul>
+
+    <ul>
+        <li>tizedik</li>
+        <li>huszadik</li>
+        <li>harmincadik</li>
+    </ul>
+
+    <table>
+        <tr>
+            <td>1111aaaaa</td>
+            <td>bbbb</td>
+        </tr>
+
+        <tr>
+            <td>2222aaaaa</td>
+            <td>bbbb</td>
+        </tr>
+
+        <tr>
+            <td>3333aaaaa</td>
+            <td>bbbb</td>
+        </tr>
+
+        <tr>
+            <td>4444aaaaa</td>
+            <td>bbbb</td>
+        </tr>
+
+        <tr>
+            <td>5555aaaaa</td>
+            <td>bbbb</td>
+        </tr>
+    </table>
+
+    <btn onclick="$('a').hide()"><strong>Kattints ide_1!</strong></btn>
+
+    &nbsp;&nbsp;&nbsp;
+
+    <btn onclick="$('this').hide()"><strong>Kattints ide_2!</strong></btn>
+
+    &nbsp;&nbsp;&nbsp;
+
+    <btn onclick="$('.fejlec').hide()"><strong>Kattints ide_3!</strong></btn>
+
+    &nbsp;&nbsp;&nbsp;
+    
+    <btn onclick="$('#linkszoveg').hide()"><strong>Kattints ide_4!</strong></btn>
+
+    &nbsp;&nbsp;&nbsp;
+
+    <btn onclick="$('tr:odd').hide()"><strong>Kattints ide_5!</strong></btn>
+
+    &nbsp;&nbsp;&nbsp;
+
+    <br><br><br>
+
+    <span id="linkszoveg">jQuery:</span>
+
+    <a href="https://www.tutorialspoint.com/index.htm">jQuery weboldal</a>
+</body>
+</html>

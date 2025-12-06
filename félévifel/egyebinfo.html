@@ -5,6 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Egyéb információ</title>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <style>
+        .video-container {
+            margin-bottom: 30px;
+            text-align: center;
+            display: block;
+            width: 100%;
+            clear: both;
+        }
+        
+        .video-container video {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            display: block;
+            margin: 0 auto;
+        }
+        
+        .video-title {
+            margin-bottom: 10px;
+            color: #333;
+            font-weight: bold;
+            display: block;
+        }
+        
+        .osszehasonlitas {
+            display: block;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -19,15 +49,79 @@
         <h2><strong>Egyéb információk</strong></h2>
         <div class="oszlop-2">
       
+             <div class="osszehasonlitas">
+        
+        <div class="video-container">
+            <h3 class="video-title">THEVR</h3>
+            <video controls width="600">
+                <source src="kepek/thevr.mp4" type="video/mp4">
+            </video>
+<br>
+            <section>
+            <div class="grid">
+            <div>
+                <button id="start">Indítás</button>
+                <button id="stop">Leállítás</button>
+                <button id="startstop">Indítás/Leállítás</button>
+            
+                <button id="mute">Néma</button>
+                <button id="quite">Halk</button>
+                <button id="loud">Hangos</button>
+            
+                <button id="veryslow">Nagyon lassú</button>
+                <button id="slow">Lassú</button>
+                <button id="normal">Normál</button>
+                <button id="fast">Gyors</button>
+                <button id="veryfast">Nagyon gyors</button>
+            
+                <button id="small">Kicsi</button>
+                <button id="normalsize">Normál</button>
+                <button id="big">Nagy</button>
+            
+                <button id="hasitended">Befejeződött-e?</button>
+                <button id="length">Videó hossza</button>
+                <button id="currently">Jelenlegi pozíció</button>
+            </div>
+        </div>
+        </section>
+
+            <p>Ebben a videóban láthatjuk hogy, nem csak a szokványos billentyűzetek lézeznek, hanem van olyan is ami középen ketté van választva. A videóban ennek a bemutatása látható.<br>További ehhez hasonló videók és a TheVR youtube csatornája:<a href="https://www.youtube.com/@thevrshortcuts/featured"> TheVR youtube</a></p>
+        </div>
+
         </div>
         <div class="iras-info">
-            Kattints a fenti területre, majd kezdj el írni!
+            A fenti videón kívűl még rengeteg videó megtalálható Youtube-on, ahol legyen szó számítógép vagy laptop felépítésében, bármit meg lehet találni amire szükségünk van.
         </div>
     </div>
 
-    <div class="osszehasonlitas">
-    
-    </div>
+    <script>
+        let btnClick = (id, onclick) => document.getElementById(id).addEventListener("click", onclick);
+
+        const video = document.querySelector("video");
+
+        btnClick("start",   () => video.play());
+        btnClick("stop",   () => video.pause());
+        btnClick("startstop",   () => video.paused ? video.play() : video.pause());
+
+        btnClick("mute",   () => video.volume = 0);
+        btnClick("quite",   () => video.volume = 0.5);
+        btnClick("loud",   () => video.volume = 1);
+
+        btnClick("veryslow",   () => video.playbackRate = 0.5);
+        btnClick("slow",   () => video.playbackRate = 0.75);
+        btnClick("normal",   () => video.playbackRate = 1);
+        btnClick("fast",   () => video.playbackRate = 1.25);
+        btnClick("veryfast",   () => video.playbackRate = 1.5);
+
+        btnClick("small",   () => video.width = 400);
+        btnClick("normalsize",   () => video.width = 600);
+        btnClick("big",   () => video.width = 800);
+
+        btnClick("hasitended",   () => alert(video.ended));
+        btnClick("length",   () => alert(video.duration));
+        btnClick("currently",   () => alert(video.currentTime));
+
+    </script>
 
     <div><br></div>
     <button><a href="kezdooldal.html">Vissza a kezdőlapra</a></button>
